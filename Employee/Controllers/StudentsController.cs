@@ -8,7 +8,7 @@ namespace Employee.Controllers
 {
     public class StudentsController : Controller
     {
-        private IStudentService _studentService;
+        private readonly IStudentService _studentService;
 
         public StudentsController(IStudentService studentService)
         {
